@@ -18,5 +18,15 @@ function greet () {
   return "hello world!"
 }
 ```
+## EXPERIENCE
+- coming soon...
+
+## EDUCATION
+- Brest State Technical Univercity, radio electronics engineer
+- wayup HTML&CSS Basics cource
+
+## ENGLISH LEVEL
+- ~A2
+
 
 
