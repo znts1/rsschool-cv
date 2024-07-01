@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #D4D3BB;
   font-family: 'Poppins';
@@ -64,7 +68,6 @@ a:visited {
 .nav-link:hover {
   color: rgb(1, 255, 1);
   transition: all 0.3s linear;
-  font-size: 18px;
 }
  .main {
   display: flex;
@@ -92,6 +95,32 @@ a:visited {
 }
  .contacts {
   margin-top: 10px;
+ }
+
+ .footer {
+  height: 50px;
+  background-color: #b0c4c3;
+  margin-top: 20px;
+ }
+
+ .footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+ }
+
+ .gh-image {
+  width: 40px;
+ }
+
+ .year {
+  height: 50px;
+ }
+
+ .rs-image {
+  width: 40px;
  }
 
 @media screen and (max-width: 1000px) {
